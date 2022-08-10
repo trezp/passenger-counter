@@ -2,11 +2,12 @@ body {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     background-image: url("yarn.jpeg");
-    background-size: contain;
+    background-size: cover no-repeat;
+    height: 100vh;
 }
 
 .container {
-    max-width: 400px;
+    max-width: 80%;
     margin: auto; 
     background: white;
     border: 3px solid black;
